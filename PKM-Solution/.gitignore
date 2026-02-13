@@ -1,0 +1,43 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+appsettings.Development.json
+appsettings.Local.json
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Node (si usas frontend)
+node_modules/
+
+# Docker
+docker-compose.override.yml
+
+# Secrets
+secrets.json
+*.env
+
+# Test results
+TestResults/
